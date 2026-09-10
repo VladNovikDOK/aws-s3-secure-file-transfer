@@ -3,3 +3,6 @@
 *.key
 __pycache__/
 .DS_Store
+
+transfer-test.txt
+*.sha256
