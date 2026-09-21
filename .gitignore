@@ -6,3 +6,7 @@ __pycache__/
 
 transfer-test.txt
 *.sha256
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
