@@ -1,4 +1,4 @@
-# AWS S3 Secure File Transfer Lab
+# AWS S3 Secure File Transfer 
 
 Hands-on Cloud/DevOps project for secure file transfers to Amazon S3 using Linux, AWS IAM, Python, Bash, rclone, Terraform, and CloudWatch.
 
