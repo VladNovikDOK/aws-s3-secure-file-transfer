@@ -1,0 +1,4 @@
+
+# Local Terraform backups and review files
+*.tf.backup*
+plan-review.txt
