@@ -1,6 +1,6 @@
 # AWS S3 Secure File Transfer 
 
-Hands-on Cloud/DevOps project for secure file transfers to Amazon S3 using Linux, AWS IAM, Python, Bash, rclone, Terraform, and CloudWatch.
+Secure file transfer solution for Amazon S3, combining Python and Bash automation, IAM role-based access, SHA-256 integrity verification, Linux, Terraform, and CloudWatch monitoring.
 
 ## Project Overview
 
