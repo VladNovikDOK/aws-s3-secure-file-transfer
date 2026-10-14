@@ -4,6 +4,7 @@ data "aws_instance" "existing" {
 
 resource "aws_instance" "transfer" {
   ami                    = data.aws_instance.existing.ami
+  user_data = file("${path.module}/../scripts/setup-ec2.sh")
   instance_type          = "t3.micro"
   key_name               = "S3TransferLab-Key"
   subnet_id              = "subnet-0cafc7935ef7e686d"
